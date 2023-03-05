@@ -1,6 +1,6 @@
-# Deepfake Image Detection by Combining XXX Attention Block
+# Deepfake Detection
 
-In this project, we use a convolutional neural network (CNN) to extract traces of face tampering. Furthermore, we propose an attention method applied between the blocks in the backbone network, which enhance the network to extract the parts of the image that are forged. Experiments show that our methods achieve well performance across various datasets: Using our method achieves 0.908 AUC values from DFDC and 0.941 AUC values from FaceForensics++.
+Forged videos are commonly spread online. Most have malicious content and cause serious information security problems. The most critical issue in deepfake detection is the identification of traces of tampering in fake videos. This study designs a Dual Attention Forgery Detection Network (DAFDN), which embeds a spatial reduction attention block (SRAB) and a forgery feature attention module (FFAM) to the backbone network. DAFDN embeds the two proposed attention mechanisms and enables the convolution neural network to extract peculiar traces left by images’ warping. This study uses two benchmark datasets, DFDC and FaceForensics++, to compare the performance of the proposed DAFDN with other methods. The results show that the proposed DAFDN mechanism achieves AUC scores of 0.911 and 0.945 in the datasets DFDC and FaceForensics++, respectively. These results are better than those of previously developed methods, such as XceptionNet and EfficientNet-related methods.
 
 ## Heatmaps
 
